@@ -1,0 +1,31 @@
+{
+  "name": "node-gat-blac-api",
+  "version": "1.0.0",
+  "description": "Node.js module to interact with official Gat-Blac Api",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gat-Blac/node-gat-blac-api.git"
+  },
+  "keywords": [
+    "gat-blac"
+  ],
+  "author": "Gat-Blac <contact@gat-blac.com> (http://gat-blac.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gat-Blac/node-gat-blac-api/issues"
+  },
+  "homepage": "https://github.com/Gat-Blac/node-gat-blac-api",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "events": "^1.1.0",
+    "request": "^2.69.0",
+    "util": "^0.10.3"
+  }
+}
