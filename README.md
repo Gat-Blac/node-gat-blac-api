@@ -81,6 +81,10 @@ gatBlacApi.getExchangeRate(filters,function(error,exchangeRate){
 
   npm test
 
+# References
+
+- [Webpage API](http://www.gat-blac.com)
+
 ## Release History
 
 * 1.0.0 Initial release
