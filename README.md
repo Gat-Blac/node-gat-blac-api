@@ -150,3 +150,4 @@ gatBlacApi.getExchangeRate(filters,function(error,exchangeRate){
 * 1.0.0 Initial release
 * 1.0.1 Fix release
 * 1.0.2 Fix release
+* 1.0.3 Fix release
