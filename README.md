@@ -10,13 +10,73 @@ A library providing methods to use all gat-blac apis
   npm install node-gat-blac-api --save
 
 ## Usage
-### Football Api
-Use the football team api of gat-blac is simple and easy with this module, there is here an example of using this.
+### Sport Api
+Use the Sport team api of gat-blac is simple and easy with this module, there is here an example of using this.
 With getTeams Method returns an array with all teams that match with the filters
 ```javascript
 var GatBlacApi = require('node-gat-blac-api');
 var gatBlacApi = new GatBlacApi();
 var filters = {'country':'chile'};
+gatBlacApi.getTeams(filters,function(error,teams){
+  if(error){
+    console.log(error);
+  }
+  console.log(teams);
+});
+```
+Football teams
+```javascript
+var GatBlacApi = require('node-gat-blac-api');
+var gatBlacApi = new GatBlacApi();
+var filters = {'sport':'football'};
+gatBlacApi.getTeams(filters,function(error,teams){
+  if(error){
+    console.log(error);
+  }
+  console.log(teams);
+});
+```
+Basketball teams
+```javascript
+var GatBlacApi = require('node-gat-blac-api');
+var gatBlacApi = new GatBlacApi();
+var filters = {'sport':'basketball'};
+gatBlacApi.getTeams(filters,function(error,teams){
+  if(error){
+    console.log(error);
+  }
+  console.log(teams);
+});
+```
+American Football teams
+```javascript
+var GatBlacApi = require('node-gat-blac-api');
+var gatBlacApi = new GatBlacApi();
+var filters = {'sport':'american-football'};
+gatBlacApi.getTeams(filters,function(error,teams){
+  if(error){
+    console.log(error);
+  }
+  console.log(teams);
+});
+```
+Baseball teams
+```javascript
+var GatBlacApi = require('node-gat-blac-api');
+var gatBlacApi = new GatBlacApi();
+var filters = {'sport':'baseball'};
+gatBlacApi.getTeams(filters,function(error,teams){
+  if(error){
+    console.log(error);
+  }
+  console.log(teams);
+});
+```
+Hockey teams
+```javascript
+var GatBlacApi = require('node-gat-blac-api');
+var gatBlacApi = new GatBlacApi();
+var filters = {'sport':'hockey'};
 gatBlacApi.getTeams(filters,function(error,teams){
   if(error){
     console.log(error);
